@@ -26,9 +26,9 @@ class BitriseSwiftSampleAppTests: XCTestCase {
         XCTAssert(true, "Pass")
     }
     
-//    func testFailExample() {
-//        XCTAssert(false, "Pass")
-//    }
+    func testFailExample() {
+        XCTAssert(false, "Pass")
+    }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
