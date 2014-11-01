@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  BitriseSwiftSampleApp
 //
-//  Created by Viktor Benei on 9/12/14.
+//  Created by Viktor Benei on 11/1/14.
 //  Copyright (c) 2014 Bitrise. All rights reserved.
 //
 

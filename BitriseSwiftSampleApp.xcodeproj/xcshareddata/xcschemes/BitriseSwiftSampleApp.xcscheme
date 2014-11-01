@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0600"
+   LastUpgradeVersion = "0610"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BA34B52C19C30EED009C7BEF"
+               BlueprintIdentifier = "BA18347D1A04F2300023210E"
                BuildableName = "BitriseSwiftSampleApp.app"
                BlueprintName = "BitriseSwiftSampleApp"
                ReferencedContainer = "container:BitriseSwiftSampleApp.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BA34B54419C30EED009C7BEF"
+               BlueprintIdentifier = "BA1834951A04F2310023210E"
                BuildableName = "BitriseSwiftSampleAppTests.xctest"
                BlueprintName = "BitriseSwiftSampleAppTests"
                ReferencedContainer = "container:BitriseSwiftSampleApp.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BA34B54419C30EED009C7BEF"
+               BlueprintIdentifier = "BA1834951A04F2310023210E"
                BuildableName = "BitriseSwiftSampleAppTests.xctest"
                BlueprintName = "BitriseSwiftSampleAppTests"
                ReferencedContainer = "container:BitriseSwiftSampleApp.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BA34B52C19C30EED009C7BEF"
+            BlueprintIdentifier = "BA18347D1A04F2300023210E"
             BuildableName = "BitriseSwiftSampleApp.app"
             BlueprintName = "BitriseSwiftSampleApp"
             ReferencedContainer = "container:BitriseSwiftSampleApp.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BA34B52C19C30EED009C7BEF"
+            BlueprintIdentifier = "BA18347D1A04F2300023210E"
             BuildableName = "BitriseSwiftSampleApp.app"
             BlueprintName = "BitriseSwiftSampleApp"
             ReferencedContainer = "container:BitriseSwiftSampleApp.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BA34B52C19C30EED009C7BEF"
+            BlueprintIdentifier = "BA18347D1A04F2300023210E"
             BuildableName = "BitriseSwiftSampleApp.app"
             BlueprintName = "BitriseSwiftSampleApp"
             ReferencedContainer = "container:BitriseSwiftSampleApp.xcodeproj">

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -19,59 +16,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BitriseIcon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="AB6-Ad-iDl">
-                                <rect key="frame" x="172" y="172" width="256" height="256"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="256" id="PZz-tx-kLH"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="PZz-tx-kLH"/>
-                                    </mask>
-                                </variation>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bitrise Swift Sample App" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="156-JI-1MY">
-                                <rect key="frame" x="111" y="86" width="379" height="42"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="245" id="J0a-hm-rDF"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Bitrise Swift Sample App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pH6-Ia-iNj">
+                                <rect key="frame" x="137" y="40" width="325" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="J0a-hm-rDF"/>
-                                    </mask>
-                                </variation>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dts-tc-y82">
-                                <rect key="frame" x="81" y="130" width="475" height="348"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="BitriseIcon" translatesAutoresizingMaskIntoConstraints="NO" id="VhE-m9-AbM">
+                                <rect key="frame" x="171" y="116" width="256" height="256"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dts-tc-y82" secondAttribute="bottom" constant="122" id="0wq-ZP-huq"/>
-                            <constraint firstItem="156-JI-1MY" firstAttribute="bottom" secondItem="AB6-Ad-iDl" secondAttribute="bottom" constant="-300" id="9IF-rv-ZsQ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="dts-tc-y82" secondAttribute="trailing" constant="28" id="9mN-g1-b2l"/>
-                            <constraint firstItem="dts-tc-y82" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="110" id="Ipx-Rr-UMy"/>
-                            <constraint firstAttribute="centerX" secondItem="AB6-Ad-iDl" secondAttribute="centerX" id="O6v-xV-ExC"/>
-                            <constraint firstAttribute="centerY" secondItem="AB6-Ad-iDl" secondAttribute="centerY" id="REQ-01-pS7"/>
-                            <constraint firstItem="156-JI-1MY" firstAttribute="centerX" secondItem="AB6-Ad-iDl" secondAttribute="centerX" id="kwy-zb-x1X"/>
-                            <constraint firstItem="dts-tc-y82" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="65" id="opU-cw-7hA"/>
+                            <constraint firstItem="VhE-m9-AbM" firstAttribute="centerX" secondItem="pH6-Ia-iNj" secondAttribute="centerX" id="0hO-nv-P3r"/>
+                            <constraint firstAttribute="centerX" secondItem="pH6-Ia-iNj" secondAttribute="centerX" id="C2n-45-xy3"/>
+                            <constraint firstItem="pH6-Ia-iNj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40" id="OEx-JR-a4W"/>
+                            <constraint firstItem="VhE-m9-AbM" firstAttribute="top" secondItem="pH6-Ia-iNj" secondAttribute="bottom" constant="40" id="blv-cg-tqW"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="dts-tc-y82"/>
-                            </mask>
-                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="212" y="384"/>
         </scene>
     </scenes>
     <resources>
-        <image name="BitriseIcon.jpg" width="256" height="256"/>
+        <image name="BitriseIcon" width="256" height="256"/>
     </resources>
 </document>
