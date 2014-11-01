@@ -7,50 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B0D918119C251F500BB800B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D918019C251F500BB800B /* AppDelegate.swift */; };
-		5B0D918419C251F500BB800B /* BitriseSwiftSampleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D918219C251F500BB800B /* BitriseSwiftSampleApp.xcdatamodeld */; };
-		5B0D918619C251F500BB800B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D918519C251F500BB800B /* MasterViewController.swift */; };
-		5B0D918819C251F500BB800B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D918719C251F500BB800B /* DetailViewController.swift */; };
-		5B0D918B19C251F500BB800B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0D918919C251F500BB800B /* Main.storyboard */; };
-		5B0D918D19C251F500BB800B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0D918C19C251F500BB800B /* Images.xcassets */; };
-		5B0D919019C251F500BB800B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B0D918E19C251F500BB800B /* LaunchScreen.xib */; };
-		5B0D919C19C251F500BB800B /* BitriseSwiftSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D919B19C251F500BB800B /* BitriseSwiftSampleAppTests.swift */; };
+		BA1834841A04F2300023210E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1834831A04F2300023210E /* AppDelegate.swift */; };
+		BA1834871A04F2300023210E /* BitriseSwiftSampleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA1834851A04F2300023210E /* BitriseSwiftSampleApp.xcdatamodeld */; };
+		BA1834891A04F2300023210E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1834881A04F2300023210E /* ViewController.swift */; };
+		BA18348C1A04F2300023210E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA18348A1A04F2300023210E /* Main.storyboard */; };
+		BA18348E1A04F2300023210E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA18348D1A04F2300023210E /* Images.xcassets */; };
+		BA1834911A04F2300023210E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA18348F1A04F2300023210E /* LaunchScreen.xib */; };
+		BA18349D1A04F2310023210E /* BitriseSwiftSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA18349C1A04F2310023210E /* BitriseSwiftSampleAppTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5B0D919619C251F500BB800B /* PBXContainerItemProxy */ = {
+		BA1834971A04F2310023210E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5B0D917319C251F500BB800B /* Project object */;
+			containerPortal = BA1834761A04F2300023210E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5B0D917A19C251F500BB800B;
+			remoteGlobalIDString = BA18347D1A04F2300023210E;
 			remoteInfo = BitriseSwiftSampleApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B0D917B19C251F500BB800B /* BitriseSwiftSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitriseSwiftSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B0D917F19C251F500BB800B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B0D918019C251F500BB800B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B0D918319C251F500BB800B /* BitriseSwiftSampleApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BitriseSwiftSampleApp.xcdatamodel; sourceTree = "<group>"; };
-		5B0D918519C251F500BB800B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		5B0D918719C251F500BB800B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		5B0D918A19C251F500BB800B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5B0D918C19C251F500BB800B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5B0D918F19C251F500BB800B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		5B0D919519C251F500BB800B /* BitriseSwiftSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitriseSwiftSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B0D919A19C251F500BB800B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B0D919B19C251F500BB800B /* BitriseSwiftSampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitriseSwiftSampleAppTests.swift; sourceTree = "<group>"; };
+		BA18347E1A04F2300023210E /* BitriseSwiftSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitriseSwiftSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1834821A04F2300023210E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1834831A04F2300023210E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA1834861A04F2300023210E /* BitriseSwiftSampleApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BitriseSwiftSampleApp.xcdatamodel; sourceTree = "<group>"; };
+		BA1834881A04F2300023210E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA18348B1A04F2300023210E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA18348D1A04F2300023210E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA1834901A04F2300023210E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BA1834961A04F2310023210E /* BitriseSwiftSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitriseSwiftSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA18349B1A04F2310023210E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA18349C1A04F2310023210E /* BitriseSwiftSampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitriseSwiftSampleAppTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5B0D917819C251F500BB800B /* Frameworks */ = {
+		BA18347B1A04F2300023210E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B0D919219C251F500BB800B /* Frameworks */ = {
+		BA1834931A04F2310023210E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,60 +58,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5B0D917219C251F500BB800B = {
+		BA1834751A04F2300023210E = {
 			isa = PBXGroup;
 			children = (
-				5B0D917D19C251F500BB800B /* BitriseSwiftSampleApp */,
-				5B0D919819C251F500BB800B /* BitriseSwiftSampleAppTests */,
-				5B0D917C19C251F500BB800B /* Products */,
+				BA1834801A04F2300023210E /* BitriseSwiftSampleApp */,
+				BA1834991A04F2310023210E /* BitriseSwiftSampleAppTests */,
+				BA18347F1A04F2300023210E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5B0D917C19C251F500BB800B /* Products */ = {
+		BA18347F1A04F2300023210E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B0D917B19C251F500BB800B /* BitriseSwiftSampleApp.app */,
-				5B0D919519C251F500BB800B /* BitriseSwiftSampleAppTests.xctest */,
+				BA18347E1A04F2300023210E /* BitriseSwiftSampleApp.app */,
+				BA1834961A04F2310023210E /* BitriseSwiftSampleAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B0D917D19C251F500BB800B /* BitriseSwiftSampleApp */ = {
+		BA1834801A04F2300023210E /* BitriseSwiftSampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				5B0D918019C251F500BB800B /* AppDelegate.swift */,
-				5B0D918519C251F500BB800B /* MasterViewController.swift */,
-				5B0D918719C251F500BB800B /* DetailViewController.swift */,
-				5B0D918919C251F500BB800B /* Main.storyboard */,
-				5B0D918C19C251F500BB800B /* Images.xcassets */,
-				5B0D918E19C251F500BB800B /* LaunchScreen.xib */,
-				5B0D918219C251F500BB800B /* BitriseSwiftSampleApp.xcdatamodeld */,
-				5B0D917E19C251F500BB800B /* Supporting Files */,
+				BA1834831A04F2300023210E /* AppDelegate.swift */,
+				BA1834881A04F2300023210E /* ViewController.swift */,
+				BA18348A1A04F2300023210E /* Main.storyboard */,
+				BA18348D1A04F2300023210E /* Images.xcassets */,
+				BA18348F1A04F2300023210E /* LaunchScreen.xib */,
+				BA1834851A04F2300023210E /* BitriseSwiftSampleApp.xcdatamodeld */,
+				BA1834811A04F2300023210E /* Supporting Files */,
 			);
 			path = BitriseSwiftSampleApp;
 			sourceTree = "<group>";
 		};
-		5B0D917E19C251F500BB800B /* Supporting Files */ = {
+		BA1834811A04F2300023210E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B0D917F19C251F500BB800B /* Info.plist */,
+				BA1834821A04F2300023210E /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5B0D919819C251F500BB800B /* BitriseSwiftSampleAppTests */ = {
+		BA1834991A04F2310023210E /* BitriseSwiftSampleAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				5B0D919B19C251F500BB800B /* BitriseSwiftSampleAppTests.swift */,
-				5B0D919919C251F500BB800B /* Supporting Files */,
+				BA18349C1A04F2310023210E /* BitriseSwiftSampleAppTests.swift */,
+				BA18349A1A04F2310023210E /* Supporting Files */,
 			);
 			path = BitriseSwiftSampleAppTests;
 			sourceTree = "<group>";
 		};
-		5B0D919919C251F500BB800B /* Supporting Files */ = {
+		BA18349A1A04F2310023210E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B0D919A19C251F500BB800B /* Info.plist */,
+				BA18349B1A04F2310023210E /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -121,13 +118,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B0D917A19C251F500BB800B /* BitriseSwiftSampleApp */ = {
+		BA18347D1A04F2300023210E /* BitriseSwiftSampleApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B0D919F19C251F500BB800B /* Build configuration list for PBXNativeTarget "BitriseSwiftSampleApp" */;
+			buildConfigurationList = BA1834A01A04F2310023210E /* Build configuration list for PBXNativeTarget "BitriseSwiftSampleApp" */;
 			buildPhases = (
-				5B0D917719C251F500BB800B /* Sources */,
-				5B0D917819C251F500BB800B /* Frameworks */,
-				5B0D917919C251F500BB800B /* Resources */,
+				BA18347A1A04F2300023210E /* Sources */,
+				BA18347B1A04F2300023210E /* Frameworks */,
+				BA18347C1A04F2300023210E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -135,46 +132,46 @@
 			);
 			name = BitriseSwiftSampleApp;
 			productName = BitriseSwiftSampleApp;
-			productReference = 5B0D917B19C251F500BB800B /* BitriseSwiftSampleApp.app */;
+			productReference = BA18347E1A04F2300023210E /* BitriseSwiftSampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5B0D919419C251F500BB800B /* BitriseSwiftSampleAppTests */ = {
+		BA1834951A04F2310023210E /* BitriseSwiftSampleAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B0D91A219C251F500BB800B /* Build configuration list for PBXNativeTarget "BitriseSwiftSampleAppTests" */;
+			buildConfigurationList = BA1834A31A04F2310023210E /* Build configuration list for PBXNativeTarget "BitriseSwiftSampleAppTests" */;
 			buildPhases = (
-				5B0D919119C251F500BB800B /* Sources */,
-				5B0D919219C251F500BB800B /* Frameworks */,
-				5B0D919319C251F500BB800B /* Resources */,
+				BA1834921A04F2310023210E /* Sources */,
+				BA1834931A04F2310023210E /* Frameworks */,
+				BA1834941A04F2310023210E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5B0D919719C251F500BB800B /* PBXTargetDependency */,
+				BA1834981A04F2310023210E /* PBXTargetDependency */,
 			);
 			name = BitriseSwiftSampleAppTests;
 			productName = BitriseSwiftSampleAppTests;
-			productReference = 5B0D919519C251F500BB800B /* BitriseSwiftSampleAppTests.xctest */;
+			productReference = BA1834961A04F2310023210E /* BitriseSwiftSampleAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5B0D917319C251F500BB800B /* Project object */ = {
+		BA1834761A04F2300023210E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Bitrise;
 				TargetAttributes = {
-					5B0D917A19C251F500BB800B = {
+					BA18347D1A04F2300023210E = {
 						CreatedOnToolsVersion = 6.1;
 					};
-					5B0D919419C251F500BB800B = {
+					BA1834951A04F2310023210E = {
 						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 5B0D917A19C251F500BB800B;
+						TestTargetID = BA18347D1A04F2300023210E;
 					};
 				};
 			};
-			buildConfigurationList = 5B0D917619C251F500BB800B /* Build configuration list for PBXProject "BitriseSwiftSampleApp" */;
+			buildConfigurationList = BA1834791A04F2300023210E /* Build configuration list for PBXProject "BitriseSwiftSampleApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -182,29 +179,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 5B0D917219C251F500BB800B;
-			productRefGroup = 5B0D917C19C251F500BB800B /* Products */;
+			mainGroup = BA1834751A04F2300023210E;
+			productRefGroup = BA18347F1A04F2300023210E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B0D917A19C251F500BB800B /* BitriseSwiftSampleApp */,
-				5B0D919419C251F500BB800B /* BitriseSwiftSampleAppTests */,
+				BA18347D1A04F2300023210E /* BitriseSwiftSampleApp */,
+				BA1834951A04F2310023210E /* BitriseSwiftSampleAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5B0D917919C251F500BB800B /* Resources */ = {
+		BA18347C1A04F2300023210E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B0D918B19C251F500BB800B /* Main.storyboard in Resources */,
-				5B0D919019C251F500BB800B /* LaunchScreen.xib in Resources */,
-				5B0D918D19C251F500BB800B /* Images.xcassets in Resources */,
+				BA18348C1A04F2300023210E /* Main.storyboard in Resources */,
+				BA1834911A04F2300023210E /* LaunchScreen.xib in Resources */,
+				BA18348E1A04F2300023210E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B0D919319C251F500BB800B /* Resources */ = {
+		BA1834941A04F2310023210E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -214,48 +211,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5B0D917719C251F500BB800B /* Sources */ = {
+		BA18347A1A04F2300023210E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B0D918419C251F500BB800B /* BitriseSwiftSampleApp.xcdatamodeld in Sources */,
-				5B0D918119C251F500BB800B /* AppDelegate.swift in Sources */,
-				5B0D918619C251F500BB800B /* MasterViewController.swift in Sources */,
-				5B0D918819C251F500BB800B /* DetailViewController.swift in Sources */,
+				BA1834891A04F2300023210E /* ViewController.swift in Sources */,
+				BA1834871A04F2300023210E /* BitriseSwiftSampleApp.xcdatamodeld in Sources */,
+				BA1834841A04F2300023210E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B0D919119C251F500BB800B /* Sources */ = {
+		BA1834921A04F2310023210E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B0D919C19C251F500BB800B /* BitriseSwiftSampleAppTests.swift in Sources */,
+				BA18349D1A04F2310023210E /* BitriseSwiftSampleAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5B0D919719C251F500BB800B /* PBXTargetDependency */ = {
+		BA1834981A04F2310023210E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5B0D917A19C251F500BB800B /* BitriseSwiftSampleApp */;
-			targetProxy = 5B0D919619C251F500BB800B /* PBXContainerItemProxy */;
+			target = BA18347D1A04F2300023210E /* BitriseSwiftSampleApp */;
+			targetProxy = BA1834971A04F2310023210E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5B0D918919C251F500BB800B /* Main.storyboard */ = {
+		BA18348A1A04F2300023210E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B0D918A19C251F500BB800B /* Base */,
+				BA18348B1A04F2300023210E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5B0D918E19C251F500BB800B /* LaunchScreen.xib */ = {
+		BA18348F1A04F2300023210E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B0D918F19C251F500BB800B /* Base */,
+				BA1834901A04F2300023210E /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -263,7 +259,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5B0D919D19C251F500BB800B /* Debug */ = {
+		BA18349E1A04F2310023210E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -306,7 +302,7 @@
 			};
 			name = Debug;
 		};
-		5B0D919E19C251F500BB800B /* Release */ = {
+		BA18349F1A04F2310023210E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -334,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,27 +338,29 @@
 			};
 			name = Release;
 		};
-		5B0D91A019C251F500BB800B /* Debug */ = {
+		BA1834A11A04F2310023210E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BitriseSwiftSampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		5B0D91A119C251F500BB800B /* Release */ = {
+		BA1834A21A04F2310023210E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BitriseSwiftSampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		5B0D91A319C251F500BB800B /* Debug */ = {
+		BA1834A41A04F2310023210E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -381,7 +379,7 @@
 			};
 			name = Debug;
 		};
-		5B0D91A419C251F500BB800B /* Release */ = {
+		BA1834A51A04F2310023210E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -399,45 +397,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B0D917619C251F500BB800B /* Build configuration list for PBXProject "BitriseSwiftSampleApp" */ = {
+		BA1834791A04F2300023210E /* Build configuration list for PBXProject "BitriseSwiftSampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B0D919D19C251F500BB800B /* Debug */,
-				5B0D919E19C251F500BB800B /* Release */,
+				BA18349E1A04F2310023210E /* Debug */,
+				BA18349F1A04F2310023210E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B0D919F19C251F500BB800B /* Build configuration list for PBXNativeTarget "BitriseSwiftSampleApp" */ = {
+		BA1834A01A04F2310023210E /* Build configuration list for PBXNativeTarget "BitriseSwiftSampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B0D91A019C251F500BB800B /* Debug */,
-				5B0D91A119C251F500BB800B /* Release */,
+				BA1834A11A04F2310023210E /* Debug */,
+				BA1834A21A04F2310023210E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5B0D91A219C251F500BB800B /* Build configuration list for PBXNativeTarget "BitriseSwiftSampleAppTests" */ = {
+		BA1834A31A04F2310023210E /* Build configuration list for PBXNativeTarget "BitriseSwiftSampleAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B0D91A319C251F500BB800B /* Debug */,
-				5B0D91A419C251F500BB800B /* Release */,
+				BA1834A41A04F2310023210E /* Debug */,
+				BA1834A51A04F2310023210E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5B0D918219C251F500BB800B /* BitriseSwiftSampleApp.xcdatamodeld */ = {
+		BA1834851A04F2300023210E /* BitriseSwiftSampleApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5B0D918319C251F500BB800B /* BitriseSwiftSampleApp.xcdatamodel */,
+				BA1834861A04F2300023210E /* BitriseSwiftSampleApp.xcdatamodel */,
 			);
-			currentVersion = 5B0D918319C251F500BB800B /* BitriseSwiftSampleApp.xcdatamodel */;
+			currentVersion = BA1834861A04F2300023210E /* BitriseSwiftSampleApp.xcdatamodel */;
 			path = BitriseSwiftSampleApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 5B0D917319C251F500BB800B /* Project object */;
+	rootObject = BA1834761A04F2300023210E /* Project object */;
 }

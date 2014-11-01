@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  BitriseSwiftSampleApp
 //
-//  Created by Bitrise on 9/11/14.
+//  Created by Viktor Benei on 11/1/14.
 //  Copyright (c) 2014 Bitrise. All rights reserved.
 //
 
@@ -10,21 +10,13 @@ import UIKit
 import CoreData
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        let splitViewController = self.window!.rootViewController as UISplitViewController
-        let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as UINavigationController
-        navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem()
-        splitViewController.delegate = self
-
-        let masterNavigationController = splitViewController.viewControllers[0] as UINavigationController
-        let controller = masterNavigationController.topViewController as MasterViewController
-        controller.managedObjectContext = self.managedObjectContext
         return true
     }
 
@@ -52,23 +44,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         self.saveContext()
     }
 
-    // MARK: - Split view
-
-    func splitViewController(splitViewController: UISplitViewController, collapseSecondaryViewController secondaryViewController:UIViewController!, ontoPrimaryViewController primaryViewController:UIViewController!) -> Bool {
-        if let secondaryAsNavController = secondaryViewController as? UINavigationController {
-            if let topAsDetailController = secondaryAsNavController.topViewController as? DetailViewController {
-                if topAsDetailController.detailItem == nil {
-                    // Return true to indicate that we have handled the collapse by doing nothing; the secondary controller will be discarded.
-                    return true
-                }
-            }
-        }
-        return false
-    }
     // MARK: - Core Data stack
 
     lazy var applicationDocumentsDirectory: NSURL = {
-        // The directory the application uses to store the Core Data store file. This code uses a directory named "bitrise.BitriseSwiftSampleApp" in the application's documents Application Support directory.
+        // The directory the application uses to store the Core Data store file. This code uses a directory named "Bitrise.BitriseSwiftSampleApp" in the application's documents Application Support directory.
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
         return urls[urls.count-1] as NSURL
     }()
@@ -76,7 +55,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
     lazy var managedObjectModel: NSManagedObjectModel = {
         // The managed object model for the application. This property is not optional. It is a fatal error for the application not to be able to find and load its model.
         let modelURL = NSBundle.mainBundle().URLForResource("BitriseSwiftSampleApp", withExtension: "momd")!
-        return NSManagedObjectModel(contentsOfURL: modelURL)
+        return NSManagedObjectModel(contentsOfURL: modelURL)!
     }()
 
     lazy var persistentStoreCoordinator: NSPersistentStoreCoordinator? = {
